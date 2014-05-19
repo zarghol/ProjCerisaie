@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Built-By: Thibault
 Build-Jdk: 1.7.0_55
 Created-By: Maven Integration for Eclipse
 
+=======
+Manifest-Version: 1.0
+Built-By: Black
+Build-Jdk: 1.7.0_51
+Created-By: Maven Integration for Eclipse
+
+>>>>>>> ee04703eae702a01bfdc70a615d22d53c99280dc
