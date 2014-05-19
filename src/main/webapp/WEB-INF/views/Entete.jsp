@@ -17,15 +17,13 @@
     <div class="navbar navbar-default navbar-fixed-top " role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Commercial</a>
+          <a class="navbar-brand" href="#">Cerisaie.com</a>
         </div>
         <div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
 				<li><a href="index.htm">Accueil</a></li>
-				<li><a href="Articles.htm">Articles</a></li>
 				<li><a href="Clients.htm">Clients</a></li>
-				<li><a href="Vendeurs.htm">Vendeurs</a></li>
-				<li><a href="Commandes.htm">Commandes</a></li>
+				<li><a href="Sejour.htm">Séjours</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>

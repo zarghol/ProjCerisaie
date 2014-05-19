@@ -10,21 +10,21 @@
 </c:if>
 <ol class="breadcrumb">
   <li><a href="index.htm">Accueil</a></li>
-  <li class="active">Commandes</li>
+  <li class="active">Séjour</li>
 </ol>
     <div class="container">
     	<div class="jumbotron">
 	    	<ul id="Tabs" class="nav nav-tabs">
 				<li><a href="#Ajout" data-toggle="tab"><span class="glyphicon glyphicon-plus"></span></a></li>
-				<li class="active"><a href="#Affiche" data-toggle="tab">Affiche les commandes</a></li>	
+				<li class="active"><a href="#Affiche" data-toggle="tab">Affiche les séjours</a></li>	
 				<li><a href="#Periode" data-toggle="tab">Période</a></li>
 			</ul>
 	    	<div id="tabContent" class="tab-content">
 				<div class="tab-pane fade" id="Ajout">
-					<form method="post" action="sauverCommande.htm" onsubmit="return verif();" role="form">
-						<div class="form-group" id="nocommande-group">
-							<label class="control-label" for="nocommande">Numéro Commande</label>
-							<input type="text" name="nocommande" value="" id="nocommande" class="form-control" />
+					<form method="post" action="sauverSejour.htm" onsubmit="return verif();" role="form">
+						<div class="form-group" id="nosejour-group">
+							<label class="control-label" for="nosejour">Numéro Séjour</label>
+							<input type="text" name="nosejour" value="" id="nosejour" class="form-control" />
 						</div>
 						<div class="form-group" id="client-group">
 							<label class="control-label" for="client" id="client-group">Client</label>
@@ -35,30 +35,26 @@
 							</select>
 						</div>
 						<div class="form-group" id="vendeur-group">
-							<label class="control-label" for="vendeur">Vendeur</label> 
-							<select name="vendeur" id="vendeur" class="form-control">
-							<c:forEach items="${vendeurs}" var="item">
-								<option value="${item.noVendeur}">${item.prenomVend} ${item.nomVend}</option>
+							<label class="control-label" for="emplacement">Emplacement</label> 
+							<select name="vendeur" id="emplacement" class="form-control">
+							<c:forEach items="${typesemplacements}" var="item">
+								<option value="${item.codeTypeE}">${item.libTypePl} ${item.tariftypepl}</option>
 							</c:forEach>
 							</select>
 						</div>
 						<div class="form-group" id="date-group">
-							<label class="control-label" for="date">Date Commande</label>
-							<input type="date" name="date" value="" id="date" class="form-control" placeholder="jj/MM/aaaa" />
+							<label class="control-label" for="datedebut">Date Début</label>
+							<input type="date" name="datedebut" value="" id="datedebut" class="form-control" placeholder="jj/MM/aaaa" />
 						</div>
-						
-						<fieldset>
-							<legend>Articles</legend>
-							<button type="button" class="btn btn-primary" onclick="addRow('tableArticle')">Ajouter un article</button>
-							
-							<table class="table" id="tableArticle">
-								<tr>
-									<th>Article</th>
-									<th>Quantité</th>
-									<th></th>
-								</tr>		
-							</table>
-						</fieldset>
+						<div class="form-group" id="date-group">
+							<label class="control-label" for="datefin">Date Fin</label>
+							<input type="date" name="datefin" value="" id="datefin" class="form-control" placeholder="jj/MM/aaaa" />
+						</div>
+						<div class="form-group" id="nbpersonne-group">
+							<label class="control-label" for="nbpersonne">Nombre de Personnes</label>
+							<input type="text" name="nbpersonne" value="" id="nbpersonne" class="form-control" />
+						</div>
+					
 						<button type="submit" class="btn btn-default">Ajouter</button>
 					</form>
 				</div>

@@ -7,9 +7,8 @@
 </ol>
 <div class="container">
 	<div class="jumbotron">
-		<h1>Base Commerciale</h1>
-		<p>Cette application permet de visualiser, modifier et utiliser
-			une base de données mySQL à travers un EJB</p>
+		<h1>Camping La Cerisaie</h1>
+		<p>Bienvenue sur l'interface de gestion informatique du camping La Cerisaie</p>
 	</div>
  </div>
 <%@ include file="PiedPage.jsp" %>
