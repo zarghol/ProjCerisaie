@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+target/m2e-wtp/web-resources/META-INF/maven/kdo.de/noel/pom.properties
+.settings/org.eclipse.core.resources.prefs
+target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+=======
 
 target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
 
@@ -7,4 +13,8 @@ target/m2e-wtp/web-resources/META-INF/maven/kdo.de/noel/pom.xml
 target/m2e-wtp/web-resources/META-INF/maven/kdo.de/noel/pom.xml
 target/m2e-wtp/web-resources/META-INF/maven/kdo.de/noel/pom.properties
 target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+<<<<<<< HEAD
 target/m2e-wtp/web-resources/META-INF/maven/kdo.de/noel/pom.properties
+=======
+>>>>>>> ee04703eae702a01bfdc70a615d22d53c99280dc
+>>>>>>> 1fff66960991d2c6bc47d00e8a3b68b510eff4e9
