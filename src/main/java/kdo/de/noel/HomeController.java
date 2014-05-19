@@ -1,13 +1,13 @@
 package kdo.de.noel;
 
 import java.util.List;
-
 import javax.naming.Context;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import kdo.de.meserreurs.MonException;
 import kdo.de.utilitaires.JBossContext;
+import model.*;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -26,5 +26,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="C:/jboss-6.1.0.Final/server/default/deploy/ProjCerisaieEJB.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
